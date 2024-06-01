@@ -1,5 +1,5 @@
 # EPIC-CAFE
-<h1>Abstract<h1>
+<h1>Abstract</h1>
 Online food ordering is the process of ordering food from a website, encompassing both specially
 prepared items and those from certified home kitchens or restaurants. This digital system aims to
 replace manual ordering methods, offering rapid and accurate order summary reports. Leveraging
@@ -10,7 +10,7 @@ operational aspects, customer satisfaction, and potential areas for improvement.
 provide insights into the cafe's performance and suggest strategies for enhancing its overall
 efficiency and profitability.<br>
  
-<h1> Introduction:<h1>
+<h1> Introduction:</h1>
 Online food ordering is the process of ordering food from a website, encompassing both
 specially prepared items and those from certified home kitchens or restaurants. This digital system
 aims to replace manual ordering methods, offering rapid and accurate order summary reports.
@@ -47,11 +47,11 @@ Through this endeavor, we aim to assist Epic Cafe Panvel in achieving sustainabl
 establishing itself as a prominent player in the local café industry.<br>
  
 <h1>Objectives:</h1>
-● The management of the information regarding item category, food, delivery address, order.
+● The management of the information regarding item category, food, delivery address, order.<br>
 ● Cart, and item category information. Since the project was entirely developed on the
-administrative
+administrative<br>
 ● End, only the administrator is assured access. The goal is to develop an application program
-to
+to<br>
 ● Simplify managing the food consumer item category. It keeps note of every delivery
 address requested.
 <br>
@@ -66,16 +66,16 @@ helped countless small and large enterprises establish themselves as market lead
  
 <h1>Functionalities</h1>:
 ● Provides search options based on a variety of criteria. Like Food Item, Customer, Order,
-and Order Confirmation.
+and Order Confirmation.<br>
 ● Online food ordering systems also manage payment information for order details, order
-confirmation details, and food items online.
+confirmation details, and food items online.<br>
 ● It keeps track of all the data regarding Categories, Payments, Orders, etc.
-Features:
-● Based on products and components.
-● Easily creating and altering issues.
-● Issue List can be queried in any detail.
-● Reporting & Charting in a more thorough manner.
-● User accounts are used to manage access and uphold security.
-● Straightforward status & resolutions.
+Features:<br>
+● Based on products and components.<br>
+● Easily creating and altering issues.<br>
+● Issue List can be queried in any detail.<br>
+● Reporting & Charting in a more thorough manner.<br>
+● User accounts are used to manage access and uphold security.<br>
+● Straightforward status & resolutions.<br>
 
  
