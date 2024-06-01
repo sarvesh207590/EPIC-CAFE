@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+<!--------------------------------------------------------------------------CSS--------------------------------------------------->
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav-point {
+  background-color: #ffffff;
+  padding: 7px 15px;
+  word-spacing: 12px;
+  text-align: right;
+}
+
+.mainheader {
+  border-bottom: 2px solid black;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+
+  box-shadow: inset 0 0 0 0 #ff4545;
+  color: #ff0000;
+  margin: 5px -0.1px;
+  padding: 5px 5px;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+li a:hover {
+  box-shadow: inset 100px 0 0 0 #ff4545;
+  color: #ffffff;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  background-color: #ffa4a4;
+}
+
+.main-text {
+  width: 600px;
+  text-align: center;
+}
+
+.head-line {
+  text-align: center;
+  font-size: 80px;
+}
+
+.tagline {
+  font-size: 30px;
+  margin-top: 14px;
+}
+
+.image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+button {
+  max-width: fit-content;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+button {
+  position: relative;
+  top: 20px;
+  border-radius: 20px;
+  border: 1px solid;
+  transition: 100ms ease-in;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #7fffd4;
+  color: #0101d5;
+}
+
+.remain {
+  clear: both;
+}
+
+.menu {
+  color: #000000;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 40px;
+}
+
+.foodmenu {
+  color: #000000;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.foodtype {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+}
+
+.t-img {
+  border-radius: 20px;
+}
+
+.aboutus {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #c8c8c8;
+}
+
+.another {
+  width: 900px;
+}
+
+.aboutus-title {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.any {
+  margin-left: 30px;
+}
+
+.map {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.rating {
+  background-color: #d1cfcf;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.customer {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.comment {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.names {
+  text-align: center;
+}
+
+.form-container {
+  width: 90%;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-img {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.dont {
+  text-align: inherit;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+footer {
+  font-size: 18px;
+  padding-top: 7px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    padding: 0 20px;
+  }
+
+  .image {
+    height: auto;
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .nav-point {
+    text-align: center;
+  }
+
+  .main-text {
+    margin-left: 0;
+  }
+
+  .box {
+    flex-direction: column;
+  }
+
+  .tagline {
+    margin-left: 0;
+  }
+
+  button {
+    margin-left: 0;
+  }
+
+  .menu {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .foodmenu {
+    flex-direction: column;
+  }
+
+  .foodtype {
+    padding-left: 0;
+  }
+
+  .h3-title,
+  .info {
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .aboutus-title,
+  .customer {
+    font-size: 30px;
+  }
+  .map {
+    height: auto;
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+
+  .aboutus {
+    flex-direction: column;
+  }
+
+  .another,
+  .map {
+    width: 100%;
+  }
+
+  .reviews {
+    display: block;
+  }
+
+  .t-img {
+    height: auto;
+    width: 50%;
+  }
+}
+  </style>
+<!--------------------------------------------------------------------------HTML--------------------------------------------------->
+  <body>
+    <header class="mainheader">
+      <nav class="nav-point">
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="#about.html"> About </a></li>
+          <li><a href="http://localhost/New%20folder/IP%20Project%20m/IP%20Project/contact.php"> Contact </a></li>
+          
+          <li><a href="http://localhost/New%20folder/IP%20Project%20m/IP%20Project/login.php"> Login </a></li>
+          
+        </ul>
+      </nav>
+    </header>
+  <!---------------------- IMAGE AND MAIN TITLE--------------------------------->
+    <section>
+      <div class="box">
+        <div class="main-text">
+          <h1 class="head-line">Epic cafe</h1>
+          <p class="tagline">come.eat.enjoy</p>
+          <button id="orderNowBtn">Book now</button>
+        </div>
+        <div class="image">
+          <img
+            src="img/epiccafe.jpg"
+            alt="epic cafe image"
+            height="300px"
+            width="auto"
+          />
+        </div>
+      </div>
+    </section>
+    <!---------------------- FOOD MENU--------------------------------->
+    <div class="remain">
+      <section>
+        <h2 class="menu">Food Menu</h2>
+        <div class="foodmenu">
+          <div>
+            <p>
+              
+              <a href="http://localhost/New%20folder/IP%20Project%20m/IP%20Project/snacks.php" target="_parent" class="foodtype"
+                ><img
+                  src="img/snacks.jpg"
+                  alt="error"
+                  height="250px"
+                  width="250px"
+                  class="t-img"
+                />
+              </a>
+              <p class="f-style">Snacks</p>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <a href="http://localhost/New%20folder/IP%20Project%20m/IP%20Project/beverages.php" target="_parent" class="foodtype">
+                <img
+                  src="img/beverages.jpg"
+                  alt="error"
+                  height="250px"
+                  width="250px"
+                  class="t-img"
+                />
+              </a>
+              <p class="f-style">Beverages</p>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <a href="http://localhost/New%20folder/IP%20Project%20m/IP%20Project/meal.php" target="_parent" class="foodtype">
+                <img
+                  src="img/lunch.jpg"
+                  alt="error"
+                  height="250px"
+                  width="250px"
+                  class="t-img"
+                />
+              </a>
+              <p class="f-style">Meal</p>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!----------------------ABOUT US--------------------------------->
+      <section class="aboutus" id="About">
+        <div class="another">
+          <h2 class="aboutus-title">About us</h2>
+            <div class="any info">
+              <h3 class="h3-title">
+                We've beem making healthy food last for 10 years
+              </h3>
+                At Epic cafe, we believe the best dishes are the ones that remind
+                you of your mother's food's taste. A portion of great food should
+                make you feel like you are wrapped in a warm blanket. While we
+                prepare our food fast, we develop the flavor slowly. Our dough rises
+                over the night. That's why every bun taste like heaven.
+            </div>
+        </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d702.3062981791384!2d73.12710321321427!3d18.990536544914747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e97bedfaa41f%3A0xdac82d6e789e5261!2sPillai&#39;s%20Canteen!5e0!3m2!1sen!2sin!4v1707889492263!5m2!1sen!2sin"
+              width="auto"
+              height="200px"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </section>
+      </div>
+      <!----------------------CUSTOMER REVIEW--------------------------------->
+      <section class="rating">
+        <h2 class="customer">What Our Customers Say</h2>
+        <div class="reviews">
+          <div>
+            <div>
+              <div class="names">
+                <img src="img/customer1.jpg" alt="" height="200px" width="200px" />
+                <p>gayatri kadam</p>
+              </div>
+            </div>
+            <p class="names dont">
+              Great place to eat and chill with friends.The affordable prices
+              are an added bonus for students on a budget.Vibrant atmosphere
+              create a perfect setting for socializing and enjoying a delicious
+              meal
+            </p>
+          </div>
+          <div>
+            <div>
+              <div class="names">
+                <img src="img/customer2.jpg" alt="" height="200px" width="200px" />
+                <p>Aniket pillai</p>
+              </div>
+            </div>
+            <p class="names dont">
+              Epic cafe is a delightful haven for students like ourselves,
+              offering a diverse menu that caters to various tastes.Vibrant
+              atmosphere create a perfect setting for socializing and enjoying a
+              delicious meal
+            </p>
+          </div>
+          <div>
+            <div>
+              <div class="names">
+                <img src="img/customer3.jpg" alt="" height="200px" width="200px" />
+                <p>Sanika Mahajan</p>
+              </div>
+            </div>
+            <p class="names dont">
+              The college canteen is more than just a place to eat it's a hub of
+              energy and camaraderie. The cozy seating coupled with prompt
+              service, makes it an inviting space.The affordable prices are an
+              added bonus for students on a budget.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer><p>Epiccafe &copy all right reserved</p></footer>
+  </body>
+
+<!--------------------------------------------------------------------------JAVASCRIPT--------------------------------------------------->
+  <script>
+    var orderNowBtn = document.getElementById("orderNowBtn");
+    orderNowBtn.addEventListener("click", function () {
+      alert("Book Now button clicked!");
+    });
+  </script>
+</html>
