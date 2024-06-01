@@ -70,6 +70,8 @@ and Order Confirmation.<br>
 ● Online food ordering systems also manage payment information for order details, order
 confirmation details, and food items online.<br>
 ● It keeps track of all the data regarding Categories, Payments, Orders, etc.
+
+
 Features:<br>
 ● Based on products and components.<br>
 ● Easily creating and altering issues.<br>
@@ -79,3 +81,24 @@ Features:<br>
 ● Straightforward status & resolutions.<br>
 
  
+ <h1>Conclusion</h1>
+ In conclusion, the launch of our online food booking website for Epic Cafe marks a
+significant step forward in enhancing the dining experience for our college community. By
+providing a diverse menu accessible to all, including students, faculty, and visitors, we have
+addressed the persistent issue of long queues and waiting times in the canteen.
+With the convenience of online ordering, users can now book their meals swiftly and
+efficiently, ensuring that their food is ready for pickup within a mere 15 minutes of confirmation.
+This innovative solution not only saves time but also enhances overall satisfaction, allowing
+everyone to enjoy delicious meals from Epic Cafe without the hassle of queuing.
+We are excited about the positive impact this platform will have on the dining experience
+of our college community and look forward to continued innovation in the future.<br>
+<h1>FutureScope</h1>
+In the future, our online food booking website for Epic Cafe aims to expand its services
+through a dedicated mobile application, integration of loyalty programs, and enhanced
+personalization.
+
+We plan to offer additional services such as event catering and delivery options while
+integrating with campus systems for seamless authentication and payment.
+Sustainability initiatives will be prioritized, including eco-friendly packaging and locally
+sourced ingredients. Continuous feedback mechanisms will ensure ongoing improvement and
+alignment with the evolving needs of our college community
