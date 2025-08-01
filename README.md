@@ -42,18 +42,15 @@ To provide a digital solution that boosts **customer convenience** and **cafe ef
 
 - 🔍 Search orders by food item, customer name, or status
 - 🛒 Cart functionality for multiple items
-- 💳 Payment management and order tracking
 - 🗃️ Database-driven management of food items, categories, orders, and delivery addresses
-- 🔐 Admin panel for managing categories and orders
+
 
 ---
 
 ## 🧩 Features
 
 - 📋 Easy-to-use UI for browsing and ordering food
-- 🔄 Fast food preparation tracking (within 15 mins of confirmation)
 - 🔐 Secure login and user access
-- 📊 Reporting and charting capabilities (admin)
 - 📁 Detailed item categorization
 - 🧾 Real-time order confirmation
 
